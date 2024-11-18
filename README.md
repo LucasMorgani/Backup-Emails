@@ -1,1 +1,3 @@
 # Backup-Emails
+Este é um script desenvolvido em Python utilizando as bibliotecas os, shutil, datetime, e requests. Feito para ser usado na empresa em que trabalho atualmente, e realizar o backup dos e-mails (Outlook) que atualmente estão configurado utilizando com o protocolo POP3.
+O Script acessa a pasta dos arquivos do Outlook, cria uma segunda pasta com um novo nome específico para o controle do backup, e move para uma pasta compartilhada na rede. Após concluído a transferencia, um bot no Telegram envia uma mensagem dizendo que o backup do usuário "tal" foi concluído.
